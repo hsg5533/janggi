@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/janggi.js"></script>
+    <script src="./js/HMotion.js"></script>
+  </head>
+  <body>
+    <div style="color: white; margin-top: 10vh; margin-bottom: 10vh">
+      <input
+        type="radio"
+        name="is_single"
+        onclick="jstage.is_single = true;"
+        checked
+      />
+      컴퓨터랑 두기
+      <input
+        type="radio"
+        name="is_single"
+        onclick="jstage.is_single = false;"
+      />
+      친구랑 두기
+    </div>
+    <div
+      id="stage"
+      style="width: 800px; height: 720px; margin: auto; position: relative"
+    >
+      <table cellpadding="0" cellspacing="1">
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="bg_rightbottom">&nbsp;</td>
+          <!-- 우하 사선 -->
+          <td class="bg_leftbottom">&nbsp;</td>
+          <!-- 좌하 사선 -->
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="bg_leftbottom">&nbsp;</td>
+          <!-- 좌하 사선 -->
+          <td class="bg_rightbottom">&nbsp;</td>
+          <!-- 우하 사선 -->
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="bg_rightbottom">&nbsp;</td>
+          <!-- 우하 사선 -->
+          <td class="bg_leftbottom">&nbsp;</td>
+          <!-- 좌하 사선 -->
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="bg_leftbottom">&nbsp;</td>
+          <!-- 좌하 사선 -->
+          <td class="bg_rightbottom">&nbsp;</td>
+          <!-- 우하 사선 -->
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+    <script>
+      var jstage = new JanggiStage(
+        "jstage",
+        "stage",
+        "han_eatitems",
+        "cho_eatitems"
+      );
+      jstage.init();
+    </script>
+  </body>
+</html>

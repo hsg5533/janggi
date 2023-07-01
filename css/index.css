@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  font-size: 9pt;
+  text-align: center;
+  background-color: black;
+}
+#stage table {
+  background-color: black;
+  position: absolute;
+}
+#stage table tr {
+  background-color: #d0b48e;
+}
+#stage table tr td {
+  width: 99px;
+  height: 79px;
+}
+#stage table tr td.bg_leftbottom {
+  background: #d0b48e url(../img/bg_leftbottom.gif) no-repeat right top;
+}
+#stage table tr td.bg_rightbottom {
+  background: #d0b48e url(../img/bg_rightbottom.gif) no-repeat left top;
+}
+.team_red {
+  position: absolute;
+  color: #df0000;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.team_green {
+  position: absolute;
+  color: #005a00;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.item_big {
+  margin-left: -55px;
+  margin-top: -55px;
+  width: 110px;
+  height: 110px;
+  background: url("../img/bg_item_big.gif") no-repeat left top;
+  font-size: 70px;
+}
+.item_normal {
+  margin-left: -40px;
+  margin-top: -40px;
+  width: 80px;
+  height: 80px;
+  background: url("../img/bg_item_normal.gif") no-repeat left top;
+  font-size: 50px;
+}
+.item_small {
+  margin-left: -23px;
+  margin-top: -23px;
+  width: 45px;
+  height: 45px;
+  background: url("../img/bg_item_small.gif") no-repeat left top;
+  font-size: 25px;
+}
+.position {
+  position: absolute;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background: #cccccc;
+  margin-top: -15px;
+  margin-left: -15px;
+}
